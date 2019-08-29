@@ -1,0 +1,12 @@
+#navbar {
+    background: black;
+}
+
+nav ul a {
+    color: white;
+}
+
+nav .brand-logo {
+    padding: 0 1rem;
+}
+
