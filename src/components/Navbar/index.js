@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav id="navbar">
             <div className="nav-wrapper">
-                <a href="/" className="brand-logo">Gabriel Jacobs</a>
+                <a href="/" className="brand-logo">My Portfolio</a>
                 <ul className="right">
                     <li><a href="/">/ Home</a></li>
                     <li><a href="/about">/ About</a></li>

@@ -1,0 +1,24 @@
+#header {
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    right: 25%;;
+}
+
+#header .card .card-content {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header .card .card-content .card-title { 
+    font-size: 35px;
+}
+
+.card {
+    margin: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 50% / 10%;
+}

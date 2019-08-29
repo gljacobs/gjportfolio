@@ -1,3 +1,5 @@
-#pp {
-    background-color: rgba(255, 255, 255, .4);
+#test {
+    position: absolute;
+    background: white;
+    top: 90%;
 }
