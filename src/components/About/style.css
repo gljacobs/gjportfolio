@@ -1,0 +1,14 @@
+#about {
+    background: white;
+    width:110%;
+    top:-5%;
+    left:-5%;
+    transform:rotate(4deg);
+    height: 400px;
+    margin-left:-5%;
+}
+
+#about .container {
+    transform:rotate(-4deg);
+    display: grid;
+}

@@ -1,0 +1,24 @@
+#skills {
+    background: white;
+    width:110%;
+    top:-5%;
+    left:-5%;
+    transform:rotate(4deg);
+    height: 410px;
+    margin-left:-5%;
+    margin-top: 400px;
+}
+
+#skills .container {
+    transform:rotate(-4deg);
+    display: grid;
+}
+
+#skills .carousel {
+    margin-top: -7.5%;
+    perspective: 1000px;
+}
+
+#skills .carousel .indicators{
+    background: red;
+}
