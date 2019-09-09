@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
+import Gallery from './components/Gallery';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <About />
       <Skills />
+      <Gallery />
     </div>
   );
 }

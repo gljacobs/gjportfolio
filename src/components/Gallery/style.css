@@ -1,0 +1,60 @@
+#gallery {
+    background: white;
+    width:120%;
+    top:-5%;
+    left:-8%;
+    transform:rotate(4deg);
+    height: 100%;
+    margin-left:-7%;
+    margin-top: 400px;
+}
+
+#gallery .container {
+    transform:rotate(-4deg);
+    display: grid;
+}
+
+.work {
+    max-width: 274px;
+    height: 300px;
+    margin: 30px;
+    background: #F0F0F0;
+  }
+
+.work:hover {
+    transform: scale(1.10);
+}
+  
+  .work img {
+    width: 100%;
+    height: 200px;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h5 {
+    position: absolute;
+    bottom: 20px;
+    margin-left: -11px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: red;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+  .work a {
+      color: white;
+  }
