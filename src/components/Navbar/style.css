@@ -1,9 +1,15 @@
 #navbar {
     background: rgba(255,255,255,0.1);
+    position: fixed;
+    z-index: 100;
 }
 
 nav ul a {
-    color: white;
+    color: red;
+}
+
+nav ul a:hover {
+    background: black;
 }
 
 nav .brand-logo {

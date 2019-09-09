@@ -4,10 +4,10 @@
 }
 
 #header .card {
-    width: 50%;
+    width: 60%;
     position: absolute;
     top: 25%;
-    right: 25%;
+    right: 20%;
     margin: 0;
     background: rgba(255,255,255,0.1);
     color: white;
@@ -22,5 +22,9 @@
 }
 
 #header .card .card-content .card-title { 
-    font-size: 35px;
+    font-size: 50px;
+}
+
+#header .card p {
+    font-size: 20px;
 }

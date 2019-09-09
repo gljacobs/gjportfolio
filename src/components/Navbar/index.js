@@ -7,9 +7,9 @@ function Navbar() {
             <div className="nav-wrapper">
                 <a href="/" className="brand-logo">My Portfolio</a>
                 <ul className="right">
-                    <li><a href="/">/ Home</a></li>
-                    <li><a href="/about">/ About</a></li>
-                    <li><a href="/projects">/ Projects</a></li>
+                    <li><a href="#about">/ About</a></li>
+                    <li><a href="#skills">/ Skills</a></li>
+                    <li><a href="#gallery">/ Projects</a></li>
                 </ul>
             </div>
         </nav>
