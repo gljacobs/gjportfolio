@@ -57,4 +57,19 @@
 
   .work a {
       color: white;
+      font-size: 20px;
   }
+
+  .work a:hover{
+    color: rgba(0,0,0,0.5);
+  }
+
+  .fab {
+    font-size: 30px;
+  }
+  
+  .gitlink {
+    float: right;
+    padding-right: 5px;
+  }
+  

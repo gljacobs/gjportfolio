@@ -5,6 +5,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Gallery />
+      <Footer />
     </div>
   );
 }
