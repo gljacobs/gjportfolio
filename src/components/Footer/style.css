@@ -17,3 +17,7 @@ footer {
     color: red;
     margin-top: -20px;
 }
+
+.linkcon:hover {
+  color: white;
+}
