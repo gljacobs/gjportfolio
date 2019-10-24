@@ -4,8 +4,6 @@ html, body {
 body {
     margin: auto;
     padding: 0px;
-    background: url("http://bestanimations.com/Nature/Fire/fire-animated-gif-4.gif");
-    background-repeat: repeat-y;
-    background-size: 100%;
+    background: url("/images/star.gif");
     overflow-x: hidden;
 }
