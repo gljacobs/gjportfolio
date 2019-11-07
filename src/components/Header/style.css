@@ -4,10 +4,10 @@
 }
 
 #header .card {
-    width: 60%;
+    width: 80vw;
     position: absolute;
     top: 250px;
-    right: 20%;
+    right: 10%;
     margin: 0;
     background: rgba(255,255,255,0.1);
     color: white;
