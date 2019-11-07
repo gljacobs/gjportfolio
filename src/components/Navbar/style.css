@@ -15,5 +15,7 @@ nav ul a:hover {
 nav .brand-logo {
     padding: 0 1rem;
     background: red;
+    left: 0;
+    transform: translateX(0%);;
 }
 
