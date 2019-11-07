@@ -67,16 +67,22 @@ function Gallery() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="card work col m6 s12">
+                    <div className="card work col m4 ">
                         <img src="./images/burger.png" alt="Burger" />
                         <h5><a target="_blank" href="https://damp-lowlands-77901.herokuapp.com/?burger_name=Plain+Burger&devoured=0">Eat The Burger</a>
                             <a className="gitlink" href="https://github.com/gljacobs/burger" target="_blank"><i className="fab fa-github-square" /></a>
                         </h5>
                     </div>
-                    <div className="card work col m6 s12">
+                    <div className="card work col m4">
                         <img src="./images/word.png" alt="Letter Guessing Game" />
                         <h5><a target="_blank" href="https://gljacobs.github.io/Psychic-Game/">Letter Guessing Game</a>
                             <a className="gitlink" href="https://github.com/gljacobs/psychic-game" target="_blank"><i className="fab fa-github-square" /></a>
+                        </h5>
+                    </div>
+                    <div className="card work col m4">
+                        <img src="./images/todo.png" alt="React ToDo" />
+                        <h5><a target="_blank" href="https://gljacobs.github.io/todolist/">React ToDo</a>
+                            <a className="gitlink" href="https://github.com/gljacobs/todolist" target="_blank"><i className="fab fa-github-square" /></a>
                         </h5>
                     </div>
                 </div>
