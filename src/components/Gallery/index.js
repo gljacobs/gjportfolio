@@ -19,10 +19,10 @@ function Gallery() {
                             <a className="gitlink" href="https://github.com/gljacobs/google-books-search" target="_blank"><i className="fab fa-github-square" /></a>
                         </h5>
                     </div>
-                    <div className="card work col m4" href="www.google.com">
-                        <img src="./images/gymate.png" alt="Gymate" />
-                        <h5><a target="_blank" href="https://gymate123.herokuapp.com">Gymate</a>
-                            <a className="gitlink" href="https://github.com/gljacobs/project2" target="_blank"><i className="fab fa-github-square" /></a>
+                    <div className="card work col m4">
+                        <img src="./images/login.png" alt="EZ Login" />
+                        <h5><a target="_blank" href="https://ezlogin.herokuapp.com">EZ Login</a>
+                            <a className="gitlink" href="https://github.com/simple-login/" target="_blank"><i className="fab fa-github-square" /></a>
                         </h5>
                     </div>
                     <div className="row">
@@ -46,6 +46,26 @@ function Gallery() {
                         </div>
                         <div className="row">
                             <div className="card work col m4">
+                                <img src="./images/gymate.png" alt="Gymate" />
+                                <h5><a target="_blank" href="https://gymate123.herokuapp.com">Gymate</a>
+                                    <a className="gitlink" href="https://github.com/gljacobs/project2" target="_blank"><i className="fab fa-github-square" /></a>
+                                </h5>
+                            </div>
+                            <div className="card work col m4">
+                                <img src="./images/gif.png" alt="GifTastic" />
+                                <h5><a target="_blank" href="https://gljacobs.github.io/GifTastic/">GifTastic</a>
+                                    <a className="gitlink" href="https://github.com/gljacobs/giftastic" target="_blank"><i className="fab fa-github-square" /></a>
+                                </h5>
+                            </div>
+                            <div className="card work col m4">
+                                <img src="./images/santa.png" alt="Secret Santa" />
+                                <h5><a target="_blank" href="https://gljacobs.github.io/secret-santa/">Secret Santa</a>
+                                    <a className="gitlink" href="https://github.com/gljacobs/secret-santa" target="_blank"><i className="fab fa-github-square" /></a>
+                                </h5>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="card work col m4">
                                 <img src="./images/burger.png" alt="Burger" />
                                 <h5><a target="_blank" href="https://damp-lowlands-77901.herokuapp.com/?burger_name=Plain+Burger&devoured=0">Eat The Burger</a>
                                     <a className="gitlink" href="https://github.com/gljacobs/burger" target="_blank"><i className="fab fa-github-square" /></a>
@@ -55,12 +75,6 @@ function Gallery() {
                                 <img src="./images/word.png" alt="Letter Guessing Game" />
                                 <h5><a target="_blank" href="https://gljacobs.github.io/Psychic-Game/">Letter Guessing Game</a>
                                     <a className="gitlink" href="https://github.com/gljacobs/psychic-game" target="_blank"><i className="fab fa-github-square" /></a>
-                                </h5>
-                            </div>
-                            <div className="card work col m4">
-                                <img src="./images/gif.png" alt="GifTastic" />
-                                <h5><a target="_blank" href="https://gljacobs.github.io/GifTastic/">GifTastic</a>
-                                    <a className="gitlink" href="https://github.com/gljacobs/giftastic" target="_blank"><i className="fab fa-github-square" /></a>
                                 </h5>
                             </div>
                         </div>
