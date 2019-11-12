@@ -6,6 +6,7 @@
 
 nav ul a {
     color: red;
+    font-weight: bold;
 }
 
 nav ul a:hover {
@@ -15,6 +16,7 @@ nav ul a:hover {
 nav .brand-logo {
     padding: 0 1rem;
     background: red;
+    font-weight: bold;
     left: 0;
     transform: translateX(0%);;
 }
