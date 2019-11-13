@@ -9,13 +9,14 @@ nav ul button{
     font-weight: bold;
     /* background: none; */
     border: none;
-    padding: 25px 15px;
+    padding: 0 15px;
     background: none;
-    height: 100%;
+    height: 65px;
 }
 
 nav ul button:hover {
-    background: black;
+    background: rgba(0,0,0,0.5);
+
 }
 
 nav ul button:focus {
