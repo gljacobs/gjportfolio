@@ -7,7 +7,6 @@
 nav ul button{
     color: red;
     font-weight: bold;
-    /* background: none; */
     border: none;
     padding: 0 15px;
     background: none;
@@ -16,7 +15,6 @@ nav ul button{
 
 nav ul button:hover {
     background: rgba(0,0,0,0.5);
-
 }
 
 nav ul button:focus {
