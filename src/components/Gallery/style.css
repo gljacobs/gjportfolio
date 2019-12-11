@@ -11,12 +11,12 @@
     display: grid;
 }
 
-@media screen and (min-width: 1086px) {
+@media screen and (min-width: 1194px) {
   #gallery {
     background: white;
     width:120%;
     top:-5%;
-    left:-8%;
+    left:-10%;
     transform:rotate(4deg);
     height: 100%;
     margin-left:-7%;
@@ -25,7 +25,6 @@
 
   #gallery .container {
     transform:rotate(-4deg);
-    display: grid;
   }
 }
 
