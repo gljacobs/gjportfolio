@@ -68,8 +68,8 @@ function Gallery() {
                         </h5>
                     </div>
                     <div className="card work col">
-                        <img src="./images/word.png" alt="Letter Guessing Game" />
-                        <h5><a target="_blank" href="https://gljacobs.github.io/Psychic-Game/">Letter Guessing Game</a>
+                        <img src="./images/word.png" alt="Guessing Game" />
+                        <h5><a target="_blank" href="https://gljacobs.github.io/Psychic-Game/">Guessing Game</a>
                             <a className="gitlink" href="https://github.com/gljacobs/psychic-game" target="_blank"><i className="fab fa-github-square" /></a>
                         </h5>
                     </div>
