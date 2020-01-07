@@ -1,23 +1,25 @@
 footer {
     padding: 40px 0;
     font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
     text-align: center;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255);
     border-top: 8px solid red;
     height: 100px;
     margin-top: 200px;
     text-align: left;
   }
 
+  .container {
+    font-weight: bold;
+  }
+
 .linkcon {
     float: right;
-    padding-left: 20px;
+    margin-left: 20px;
     color: red;
     margin-top: -20px;
 }
 
 .linkcon:hover {
-  color: white;
+  transform: scale(1.40);;
 }
