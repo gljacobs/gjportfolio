@@ -20,6 +20,18 @@ function Gallery() {
                         </h5>
                     </div>
                     <div className="card work col">
+                        <img src="./images/ccv1.png" alt="ChitChatv1" />
+                        <h5><a target="_blank" href="https://chitchatv1.herokuapp.com/">ChitChat</a>
+                            <a className="gitlink" href="https://github.com/gljacobs/chitchat" target="_blank"><i className="fab fa-github-square" /></a>
+                        </h5>
+                    </div>
+                    <div className="card work col">
+                        <img src="./images/ezchat.png" alt="EZ Chat" />
+                        <h5><a target="_blank" href="https://morning-scrubland-86999.herokuapp.com/">EZ Chat</a>
+                            <a className="gitlink" href="https://github.com/gljacobs/ezchat" target="_blank"><i className="fab fa-github-square" /></a>
+                        </h5>
+                    </div>
+                    <div className="card work col">
                         <img src="./images/login.png" alt="EZ Login" />
                         <h5><a target="_blank" href="https://ezlogin.herokuapp.com">EZ Login</a>
                             <a className="gitlink" href="https://github.com/gljacobs/simple-login/" target="_blank"><i className="fab fa-github-square" /></a>
@@ -47,6 +59,12 @@ function Gallery() {
                         <img src="./images/friend.png" alt="Friend Finder" />
                         <h5><a target="_blank" href="https://evening-lowlands-50463.herokuapp.com/">Friend Finder</a>
                             <a className="gitlink" href="https://github.com/gljacobs/friendfinder" target="_blank"><i className="fab fa-github-square" /></a>
+                        </h5>
+                    </div>
+                    <div className="card work col">
+                        <img src="./images/hangman.png" alt="Letter Guess" />
+                        <h5><a target="_blank" href="https://github.com/gljacobs/Word-Guess">Gymate</a>
+                            <a className="gitlink" href="https://github.com/gljacobs/Word-Guess" target="_blank"><i className="fab fa-github-square" /></a>
                         </h5>
                     </div>
                     <div className="card work col">
