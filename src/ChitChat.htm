@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://localhost:3000/chat -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>ChitChat</title>
+        <!-- Compiled and minified CSS -->
+
+    <link rel="stylesheet" href="./ChitChat_files/materialize.min.css">
+    <link href="./ChitChat_files/icon" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="./ChitChat_files/materialize.min.js"></script>
+    <script src="./ChitChat_files/socket.io.js"></script>
+  <style>html, #root, .App {height:100%}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2C2C2C;
+  /* background-image:url("https://media0.giphy.com/media/jNCT0DtwX6GFG/source.gif"); */
+}
+
+.btn, .btn:focus {
+  background-color: #4094ff;
+}
+
+.btn:hover {
+  background-color: #0047a2;
+}
+
+.active {
+  color: #4094ff !important;
+} 
+
+/* label focus color */
+.input-field input:focus + label {
+  color: #4094ff !important;
+}
+/* label underline focus color */
+.input-field input:focus {
+  border-bottom: 1px solid #4094ff !important;
+  box-shadow: 0 1px 0 0 #4094ff !important;
+}
+/* valid color */
+.input-field input.valid {
+  border-bottom: 1px solid #4094ff !important;
+  box-shadow: 0 1px 0 0 #4094ff !important;
+}
+/* invalid color */
+.input-field input.invalid {
+  border-bottom: 1px solid #4094ff;
+  box-shadow: 0 1px 0 0 #4094ff;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #4094ff;
+}
+
+/* label underline focus color */
+
+
+.input-field textarea:focus {
+  border-bottom: 1px solid #4094ff !important;
+  box-shadow: 0 1px 0 0 #4094ff !important;
+}
+
+.input-field textarea {
+  border-bottom: 1px solid white !important;
+  color: white;
+}
+
+.input-field label {
+  color: white;
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+</style><style>#navbar {
+    position: fixed;
+    z-index: 1;
+    background-color: #1f1f1f;
+}
+
+nav p {
+    float: right;
+    color: #FFAB40;
+}
+
+nav img {
+    height: 2.5rem;
+    position: absolute;
+    top: 13px;
+}
+nav a {
+    padding: 0 1rem;
+    font-weight: bold;
+    color: #FFAB40;
+    font-size: 2.5rem;
+}
+
+</style><style>#logcard {
+    text-align: center;
+    width: 45vw;
+}
+
+.card {
+    margin-top: 17.5vh !important;
+}
+
+@media screen and (max-width: 950px) {
+    #logcard {
+        width: 90vw;
+    }
+}
+
+.card .card-content .card-title {
+    font-weight: bold;
+    color: #FFAB40;
+}
+</style><style>#signcard {
+    text-align: center;
+    width: 60vw;
+}
+
+.card {
+    margin-top: 17.5vh;
+}
+
+@media screen and (max-width: 950px) {
+    #signcard {
+        width: 90vw;
+    }
+
+    .card {
+        margin-top: 12.5vh !important;
+    }
+}
+
+.card .card-content .card-title {
+    font-weight: bold;
+    color: #FFAB40;
+}
+</style><style>div#chat-page {
+    height: 100%;
+}
+div#chat {
+    margin-left: 300px;
+    margin-top: 56px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    color: white;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    div#chat {
+        margin-left: 0;
+    }
+
+    #chatin {
+        width: 100vw;
+    }
+}
+
+div#chatbox {
+    width: 90vw;
+    height: 100%;
+}
+div#chat-content {
+    height: 100%;
+}
+
+#chatout {
+    background:red;
+}
+
+.input-field.col.s12 {
+    color: white;
+}
+
+#chatbtn {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    width: 97px;
+}
+
+
+ul#nav-mobile {
+    z-index: -1;
+}
+</style><script charset="utf-8" src="./ChitChat_files/main.8d2dcd42c36bb53b0699.hot-update.js"></script></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><nav id="navbar"><div class="nav-wrapper"><a href="http://localhost:3000/">ChitChat<img src="./ChitChat_files/largesquare-Pixel-Cat.gif"></a><p>No user is currently logged in</p></div></nav><div id="chat-page"><ul id="nav-mobile" class="sidenav sidenav-fixed"><li><div class="user-view"><div class="background"></div><a href="http://localhost:3000/chat#user"></a><a href="http://localhost:3000/chat#name"><span class="white-text name">John Doe</span></a><a href="http://localhost:3000/chat#email"><span class="white-text email">jdandturk@gmail.com</span></a></div></li><li><a href="http://localhost:3000/chat#!"><i class="material-icons">cloud</i>First Link With Icon</a></li><li><a href="http://localhost:3000/chat#!">Second Link</a></li><li><div class="divider"></div></li><li><a class="subheader">Subheader</a></li><li><a class="waves-effect" href="http://localhost:3000/chat#!">Third Link With Waves</a></li></ul><div id="chat" class="row container"><div id="chatbox" class="col s12 m8"><div id="chat-content"><h2>ChitChatRoom</h2><div id="chatout"><div id="output"></div><div id="feedback"></div></div><form id="chatin"><div class="input-field col m10"><i class="material-icons prefix">chat_bubble_outline</i><textarea id="chatarea" class="materialize-textarea"></textarea><label for="chatarea">Enter message to chat..</label></div><button id="chatbtn" class="btn waves-effect waves-light col m2" type="submit" name="action">Send<i class="material-icons right">send</i></button></form></div></div></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./ChitChat_files/bundle.js"></script><script src="./ChitChat_files/1.chunk.js"></script><script src="./ChitChat_files/main.chunk.js"></script><script src="./ChitChat_files/main.fd593faf6112b77d58bb.hot-update.js"></script>
+
+<div class="hiddendiv common" style="font-size: 16px; font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: normal; padding: 12px 0px; width: 993.75px;"><br></div></body></html>
