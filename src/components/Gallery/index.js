@@ -15,7 +15,7 @@ function Gallery() {
                     </div>
                     <div className="card work col">
                         <img src="./images/gbooks.png" alt="GBooks-Search" />
-                        <h5><a target="_blank" href="https://limitless-reaches-94201.herokuapp.com/">Google Book Search</a>
+                        <h5><a target="_blank" href="https://limitless-reaches-94201.herokuapp.com/">Book Search</a>
                             <a className="gitlink" href="https://github.com/gljacobs/google-books-search" target="_blank"><i className="fab fa-github-square" /></a>
                         </h5>
                     </div>
@@ -63,7 +63,7 @@ function Gallery() {
                     </div>
                     <div className="card work col">
                         <img src="./images/hangman.png" alt="Letter Guess" />
-                        <h5><a target="_blank" href="https://github.com/gljacobs/Word-Guess">Gymate</a>
+                        <h5><a target="_blank" href="https://github.com/gljacobs/Word-Guess">Node Hangman</a>
                             <a className="gitlink" href="https://github.com/gljacobs/Word-Guess" target="_blank"><i className="fab fa-github-square" /></a>
                         </h5>
                     </div>
