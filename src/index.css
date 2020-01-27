@@ -1,11 +1,11 @@
 html, body {
-    height: 100%;
+    min-height: 100%;
 }
 
 body {
     margin: auto;
     padding: 0px;
     /* background: url("../src/star.gif"); */
-    background: url("../src/waves.gif");
+    /* background: url("../src/waves.gif"); */
     overflow-x: hidden;
 }
