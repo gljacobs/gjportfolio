@@ -22,10 +22,11 @@
 }
 
 #header .card .card-content .card-title { 
-    font-size: 50px;
+    font-size: 55px;
     padding: 5px;
+
 }
 
 #header .card p {
-    font-size: 20px;
+    font-size: 25px;
 }

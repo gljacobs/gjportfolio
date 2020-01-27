@@ -1,11 +1,11 @@
 #navbar {
-    background: rgba(255,255,255);
+    background: rgba(0,0,0, 0.25);
     position: fixed;
     z-index: 100;
 }
 
 nav ul button{
-    color: red;
+    color: white;
     font-weight: bold;
     border: none;
     padding: 0 15px;
@@ -14,7 +14,7 @@ nav ul button{
 }
 
 nav ul button:hover {
-    background: rgba(0,0,0);
+    background: rgba(0,0,0, 0.5);
 }
 
 nav ul button:focus {
@@ -23,7 +23,6 @@ nav ul button:focus {
 
 nav .brand-logo {
     padding: 0 1rem;
-    background: red;
     left: 0;
     transform: translateX(0%);;
 }

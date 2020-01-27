@@ -57,7 +57,7 @@
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: red;
+    background: #f0a842;
     border-bottom: 0;
   }
   
@@ -76,7 +76,7 @@
   }
 
   .work a:hover{
-    color: rgb(0,0,0);
+    color: #561fb9;
   }
 
   .fab {

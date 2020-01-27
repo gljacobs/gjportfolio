@@ -2,11 +2,12 @@ footer {
     padding: 40px 0;
     font-size: 12px;
     text-align: center;
-    background: rgba(255,255,255);
-    border-top: 8px solid red;
+    background: #561fb9;
+    border-top: 8px solid #f0a842;
     height: 100px;
     margin-top: 200px;
     text-align: left;
+    color: white;
   }
 
   .container {
@@ -16,7 +17,7 @@ footer {
 .linkcon {
     float: right;
     margin-left: 20px;
-    color: red;
+    color: white;
     margin-top: -20px;
 }
 
