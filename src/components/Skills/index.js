@@ -16,9 +16,9 @@ class Skills extends React.Component {
                     <div className="carousel">
                         <a className="carousel-item" href="https://reactjs.org/" target="_blank"><img src="https://www.tuannguyen.tech/wp-content/uploads/2019/01/react.png" /></a>
                         <a className="carousel-item" href="https://nodejs.org/" target="_blank"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png" /></a>
-                        <a className="carousel-item" href="https://developer.mozilla.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" /></a>
+                        <a className="carousel-item" href="https://www.w3schools.com/js/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" /></a>
                         <a className="carousel-item" href="https://www.mongodb.com/" target="_blank"><img src="https://s3-eu-west-1.amazonaws.com/devinterface-web/production/technologies/30/medium/mongodb111.png?1444285573" /></a>
-                        <a className="carousel-item" href="https://www.w3schools.com/js/" target="_blank"><img src="https://apxsoftwares.com/wp-content/uploads/2019/07/2-2.png" /></a>
+                        <a className="carousel-item" href="https://www.mysql.com/" target="_blank"><img src="https://apxsoftwares.com/wp-content/uploads/2019/07/2-2.png" /></a>
                         <a className="carousel-item" href="https://www.w3schools.com/html/html5_intro.asp" target="_blank"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" /></a>
                         <a className="carousel-item" href="https://www.w3schools.com/css/" target="_blank"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" /></a>
                         <a className="carousel-item" href="https://jquery.com/" target="_blank"><img src="https://i.pinimg.com/originals/99/99/c1/9999c1a8c347b81c5cb5df967664c4c3.gif" /></a>
