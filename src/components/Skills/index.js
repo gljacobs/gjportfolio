@@ -23,7 +23,7 @@ class Skills extends React.Component {
                         <a className="carousel-item" href="https://www.w3schools.com/css/" target="_blank"><img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" /></a>
                         <a className="carousel-item" href="https://jquery.com/" target="_blank"><img src="https://i.pinimg.com/originals/99/99/c1/9999c1a8c347b81c5cb5df967664c4c3.gif" /></a>
                         <a className="carousel-item" href="https://getbootstrap.com/" target="_blank"><img src="http://www.superone.in/superone.in/wp-content/uploads/2017/07/bootstrap-logo.png" /></a>
-                        <a className="carousel-item" href="https://github.com/" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" /></a>
+                        <a className="carousel-item" href="https://github.com/gljacobs/" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" /></a>
                     </div>
                 </div>
             </div>
