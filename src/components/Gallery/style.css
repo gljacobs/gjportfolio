@@ -14,16 +14,17 @@
 @media screen and (min-width: 1194px) {
   #gallery {
     background: white;
-    width:110%;
+    width:114%;
     top:-5%;
     transform:rotate(4deg);
     height: 100%;
-    margin-left:-7%;
+    margin-left:-9%;
     margin-top: 400px;
   }
 
   #gallery .container {
     transform:rotate(-4deg);
+    margin-left: 20vw;
   }
 }
 
@@ -89,6 +90,7 @@
   }
 
   #gallery .row {
-    margin-left: 5vw;
+    margin-left: 3vw;
   }
+  
   
