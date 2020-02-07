@@ -15,7 +15,7 @@
 }
 
 #header .card .card-content {
-    height: 200px;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
