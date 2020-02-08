@@ -11,6 +11,23 @@
     display: grid;
 }
 
+@media screen and (min-width: 1194px) {
+  #gallery {
+    background: white;
+    width:114%;
+    top:-5%;
+    transform:rotate(4deg);
+    height: 100%;
+    margin-left:-9%;
+    margin-top: 400px;
+  }
+
+  #gallery .container {
+    transform:rotate(-4deg);
+    margin-left: 20vw;
+  }
+}
+
 .work {
     max-width: 274px;
     min-width: 274px;
@@ -73,24 +90,7 @@
   }
 
   #gallery .row {
-    margin-left: 4vw;
-  }
-
-  @media screen and (min-width: 1194px) {
-    #gallery {
-      background: white;
-      width:114%;
-      top:-5%;
-      transform:rotate(4deg);
-      height: 100%;
-      margin-left:-9%;
-      margin-top: 400px;
-    }
-  
-    #gallery .container {
-      transform:rotate(-4deg);
-      margin-left: 20vw;
-    }
+    margin-left: 3vw;
   }
   
   
