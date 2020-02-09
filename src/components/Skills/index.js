@@ -5,7 +5,7 @@ import M from "materialize-css";
 class Skills extends React.Component {
     componentDidMount() {
         var elem = document.querySelector('.carousel');
-        var instance = M.Carousel.init(elem, { duration: 200 , indicators: true, padding: 75});
+        var instance = M.Carousel.init(elem, { duration: 100 , indicators: true, padding: 75});
     };
 
     render() {
