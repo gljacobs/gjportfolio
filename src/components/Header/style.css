@@ -3,28 +3,26 @@
 }
 
 #header .card {
-    width: 80vw;
+    width: 100vw;
     position: absolute;
     top: 250px;
-    right: 10%;
     margin: 0;
-    background: rgba(0,0,0,0.0);
+    background: none;
     color: white;
     box-shadow: none;
     /* border-radius: 20% / 80%; */
 }
 
 #header .card .card-content {
-    height: 30vh;
+    height: 27.5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #header .card .card-content .card-title { 
-    font-size: 55px;
-    padding: 5px;
-
+    font-size: 65px;
+    padding: 10px;
 }
 
 #header .card p {
