@@ -5,16 +5,14 @@
 #header .card {
     width: 100vw;
     position: absolute;
-    top: 250px;
+    top: 37vh;
     margin: 0;
     background: none;
     color: white;
     box-shadow: none;
-    /* border-radius: 20% / 80%; */
 }
 
 #header .card .card-content {
-    height: 27.5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +21,7 @@
 #header .card .card-content .card-title { 
     font-size: 65px;
     padding: 10px;
+    font-weight: 500;
 }
 
 #header .card p {
