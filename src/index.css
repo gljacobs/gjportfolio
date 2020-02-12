@@ -5,7 +5,5 @@ html, body {
 body {
     margin: auto;
     padding: 0px;
-    /* background: url("../src/star.gif"); */
-    /* background: url("../src/waves.gif"); */
     overflow-x: hidden;
 }
