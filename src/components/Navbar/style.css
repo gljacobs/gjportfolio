@@ -22,7 +22,7 @@ nav ul button:focus {
 }
 
 nav .brand-logo {
-    padding: 0 1rem;
+    padding: 0 1%;
     left: 0;
     transform: translateX(0%);;
 }

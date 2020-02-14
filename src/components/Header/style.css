@@ -22,8 +22,15 @@
     font-size: 65px;
     padding: 10px;
     font-weight: 500;
+    height: auto;
 }
 
 #header .card p {
     font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    #header .card .card-content .card-title { 
+        font-size: 50px;
+    }
 }
