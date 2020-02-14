@@ -2,7 +2,7 @@ footer {
     padding: 40px 0;
     font-size: 12px;
     text-align: center;
-    background: #34136F;
+    background: rgba(0,0,0, 0.4);
     border-top: 8px solid #f0a842;
     height: 100px;
     margin-top: 200px;

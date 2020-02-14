@@ -14,7 +14,7 @@
 @media screen and (min-width: 1194px) {
   #gallery {
     background: white;
-    width:114%;
+    width:120%;
     top:-5%;
     transform:rotate(4deg);
     height: 100%;
@@ -24,7 +24,7 @@
 
   #gallery .container {
     transform:rotate(-4deg);
-    margin-left: 22vw;
+    margin-left: 21vw;
   }
 }
 
