@@ -1,11 +1,10 @@
 #about {
     background: white;
     width:110%;
-    top:-5%;
     left:-5%;
     transform:rotate(4deg);
-    height: 100%;
     margin-left:-5%;
+    padding-bottom: 9%;
 }
 
 #about .container {
