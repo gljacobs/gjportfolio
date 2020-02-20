@@ -1,13 +1,17 @@
 footer {
-    padding: 40px 0;
+    padding: 10px 0 20px 0;
     font-size: 12px;
     text-align: center;
     background: rgba(0,0,0, 0.4);
     border-top: 8px solid #f0a842;
-    height: 100px;
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: left;
     color: white;
+    z-index: 2;
+  }
+
+  footer h4 {
+    text-align: center;
   }
 
   .container {
