@@ -1,10 +1,10 @@
 #about {
     background: white;
-    width:110%;
-    left:-5%;
     transform:rotate(4deg);
-    margin-left:-5%;
     padding-bottom: 9%;
+    width: calc(100% + 40px);
+    left: -20px;
+    z-index: 2;
 }
 
 #about .container {
