@@ -5,10 +5,10 @@ import M from "materialize-css";
 class Skills extends React.Component {
     componentDidMount() {
         var elem = document.querySelector('.carousel');
-        var instance = M.Carousel.init(elem, { duration: 100 , indicators: true, padding: 75});
+        var instance = M.Carousel.init(elem, { duration: 150 , indicators: true, padding: 75});
         setInterval(() => {
             instance.next();
-        }, 3500)
+        }, 4000)
     };
 
     render() {
