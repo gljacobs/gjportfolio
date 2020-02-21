@@ -10,10 +10,9 @@ nav ul button{
     border: none;
     padding: 0 15px;
     background: none;
-    height: 65px;
 }
 
-nav ul button:hover {
+nav ul li:hover {
     background: rgba(0,0,0, 0.5);
 }
 
