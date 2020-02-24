@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
     return (
         <footer>
-            <h4>Git in Contact</h4>
+            <h4>Contact Me</h4>
             <div className="container">
                 Gabriel Jacobs <br/>
                 gabriel.luke.jacobs@gmail.com
