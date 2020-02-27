@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 class App extends React.Component {
   componentDidMount() {
     window.VANTA.NET({
-      el: "#header",
+      el: "#app",
       mouseControls: true,
       touchControls: true,
       scale: 1.00,
