@@ -1,15 +1,30 @@
 {
   "files": {
     "main.css": "/gjportfolio/static/css/main.7e1f6dea.chunk.css",
-    "main.js": "/gjportfolio/static/js/main.36fe74eb.chunk.js",
-    "main.js.map": "/gjportfolio/static/js/main.36fe74eb.chunk.js.map",
+    "main.js": "/gjportfolio/static/js/main.e8b439bf.chunk.js",
+    "main.js.map": "/gjportfolio/static/js/main.e8b439bf.chunk.js.map",
     "runtime~main.js": "/gjportfolio/static/js/runtime~main.50c7f30a.js",
     "runtime~main.js.map": "/gjportfolio/static/js/runtime~main.50c7f30a.js.map",
-    "static/js/2.6384154f.chunk.js": "/gjportfolio/static/js/2.6384154f.chunk.js",
-    "static/js/2.6384154f.chunk.js.map": "/gjportfolio/static/js/2.6384154f.chunk.js.map",
+    "static/js/2.767dc41c.chunk.js": "/gjportfolio/static/js/2.767dc41c.chunk.js",
+    "static/js/2.767dc41c.chunk.js.map": "/gjportfolio/static/js/2.767dc41c.chunk.js.map",
     "index.html": "/gjportfolio/index.html",
-    "precache-manifest.2286843fd6d9874ad795816363a1b4bf.js": "/gjportfolio/precache-manifest.2286843fd6d9874ad795816363a1b4bf.js",
+    "precache-manifest.0df4575a8ae61a979f7f96be24f75b47.js": "/gjportfolio/precache-manifest.0df4575a8ae61a979f7f96be24f75b47.js",
     "service-worker.js": "/gjportfolio/service-worker.js",
-    "static/css/main.7e1f6dea.chunk.css.map": "/gjportfolio/static/css/main.7e1f6dea.chunk.css.map"
+    "static/css/main.7e1f6dea.chunk.css.map": "/gjportfolio/static/css/main.7e1f6dea.chunk.css.map",
+    "static/media/burger.png": "/gjportfolio/static/media/burger.8bfef8c2.png",
+    "static/media/camp.png": "/gjportfolio/static/media/camp.8a2425da.png",
+    "static/media/ccv1.png": "/gjportfolio/static/media/ccv1.07fd2c27.png",
+    "static/media/clicky.png": "/gjportfolio/static/media/clicky.66e7d7aa.png",
+    "static/media/drg.png": "/gjportfolio/static/media/drg.1058cfb1.png",
+    "static/media/ezchat.png": "/gjportfolio/static/media/ezchat.847c11c9.png",
+    "static/media/friend.png": "/gjportfolio/static/media/friend.a2d9dda1.png",
+    "static/media/gbooks.png": "/gjportfolio/static/media/gbooks.792d5751.png",
+    "static/media/gif.png": "/gjportfolio/static/media/gif.bf0c8d09.png",
+    "static/media/gymate.png": "/gjportfolio/static/media/gymate.10ea2bb7.png",
+    "static/media/hangman.png": "/gjportfolio/static/media/hangman.6b9847e3.png",
+    "static/media/login.png": "/gjportfolio/static/media/login.4964e6b0.png",
+    "static/media/santa.png": "/gjportfolio/static/media/santa.576fe3a8.png",
+    "static/media/todo.png": "/gjportfolio/static/media/todo.b4f1239c.png",
+    "static/media/word.png": "/gjportfolio/static/media/word.9533285a.png"
   }
 }
