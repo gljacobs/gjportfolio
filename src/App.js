@@ -1,4 +1,7 @@
 import React from 'react';
+import Particles from 'react-particles-js';
+
+//import components
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
@@ -7,24 +10,11 @@ import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 
 class App extends React.Component {
-  componentDidMount() {
-    window.VANTA.NET({
-      el: "#app",
-      mouseControls: true,
-      touchControls: true,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0xf0a842,
-      backgroundColor: 0x561fb9,
-      spacing: 20.00,
-      maxDistance: 25.00,
-      points: 15.00,
-    });
-  }
+ 
   render() {
     return (
       <div id="app" className="App">
-        <Navbar />
+        <Navbar />        
         <Header />
         <About />
         <Skills />
