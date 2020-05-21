@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
     return (
-        <footer>
+        <footer className="foot">
             <h4>Contact Me</h4>
             <div className="container">
                 Gabriel Jacobs <br/>

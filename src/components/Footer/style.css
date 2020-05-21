@@ -1,4 +1,4 @@
-footer {
+.foot {
     padding: 10px 0 20px 0;
     font-size: 12px;
     text-align: center;
@@ -8,9 +8,10 @@ footer {
     text-align: left;
     color: white;
     z-index: 2;
+    position: relative;
   }
 
-  footer h4 {
+  .foot h4 {
     text-align: center;
   }
 
@@ -18,13 +19,13 @@ footer {
     font-weight: bold;
   }
 
-.linkcon {
+.foot .linkcon {
     float: right;
     margin-left: 20px;
     color: white;
     margin-top: -20px;
 }
 
-.linkcon:hover {
+.foot .linkcon:hover {
   transform: scale(1.40);;
 }
