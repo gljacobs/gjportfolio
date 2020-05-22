@@ -32,16 +32,11 @@ class App extends React.Component {
                 type: 'circle',
                 stroke: {
                   width: 1,
-                  color: '#000000'
+                  color: '#f0a842'
                 },
                 polygon: {
                   nb_sides: 5
                 },
-                image: {
-                  src: 'img/github.svg',
-                  width: 100,
-                  height: 100
-                }
               },
               opacity: {
                 value: 0.8,
@@ -99,12 +94,6 @@ class App extends React.Component {
                 resize: true
               },
               modes: {
-                grab: {
-                  distance: 400,
-                  line_linked: {
-                    opacity: 1
-                  }
-                },
                 repulse: {
                   distance: 200,
                   duration: 0.4
@@ -112,8 +101,7 @@ class App extends React.Component {
               }
             },
             retina_detect: true
-          }
-          }
+          }}
         />
         <Header />
         <About />
