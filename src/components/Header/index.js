@@ -9,7 +9,7 @@ function Header() {
                         <div className="card-content">
                             <span className="card-title center-align">Gabriel Jacobs</span>
                             <p className="center-align">
-                                Full-Stack Developer and Web Designer
+                                Full-Stack Developer and Web Freelancer
                             </p>
                         </div>
                     </div>
