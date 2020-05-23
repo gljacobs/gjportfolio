@@ -1,5 +1,6 @@
 html, body {
     overflow-x: hidden !important;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 body {
