@@ -33,4 +33,8 @@
     #header .card .card-content .card-title { 
         font-size: 50px;
     }
+
+    #header .card p {
+        font-size: 20px;
+    }
 }
