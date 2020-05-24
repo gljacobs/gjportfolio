@@ -5,8 +5,8 @@ function Navbar() {
 
     var handleScrollToElement = (event) => {
         var elmnt = document.getElementById(event.target.value);
-        elmnt.scrollIntoView({behavior: 'smooth'});
-      }
+        elmnt.scrollIntoView({ behavior: 'smooth' });
+    }
 
     return (
         <nav id="navbar">
