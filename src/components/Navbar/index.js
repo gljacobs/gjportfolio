@@ -11,7 +11,7 @@ function Navbar() {
     return (
         <nav id="navbar">
             <div className="nav-wrapper">
-                <a href="#" className="brand-logo">Dev Portfolio</a>
+                <a href="/#" className="brand-logo">Dev Portfolio</a>
                 <ul className="right">
                     <li><button value="about" onClick={handleScrollToElement}>/ About</button></li>
                     <li><button value="skills" onClick={handleScrollToElement}>/ Skills</button></li>
