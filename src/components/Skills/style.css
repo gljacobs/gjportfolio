@@ -23,3 +23,14 @@
 #skills .carousel .indicators{
     background: #f0a842;
 }
+
+@media screen and (max-width: 600px) {
+    #skills .carousel {
+        margin-top: -10vh;
+    }
+
+    #skills ul.indicators {
+        width: 80vw;
+        left: 8vw;
+    }
+}

@@ -15,7 +15,7 @@ class Skills extends React.Component {
         return (
             <div id="skills">
                 <div className="container">
-                    <h3>Skills and Technologies</h3>
+                    <h3>Skills & Technologies</h3>
                     <div className="carousel">
                         <a className="carousel-item" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><img src="https://www.tuannguyen.tech/wp-content/uploads/2019/01/react.png" alt="react"/></a>
                         <a className="carousel-item" href="https://nodejs.org/" target="_blank" rel="noopener noreferrer"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/full/nodejslogo.png" alt="node"/></a>
