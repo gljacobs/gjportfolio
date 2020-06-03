@@ -1,6 +1,6 @@
 #about {
     background: white;
-    transform:rotate(4deg);
+    transform: rotate(4deg);
     padding-bottom: 9%;
     width: calc(100% + 40px);
     left: -20px;
@@ -9,7 +9,7 @@
 }
 
 #about .container {
-    transform:rotate(-4deg);
+    transform: rotate(-4deg);
     display: grid;
 }
 

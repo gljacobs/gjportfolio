@@ -1,76 +1,75 @@
 #gallery {
-    background: white;
-    transform:rotate(4deg);
-    height: 100%;
-    margin-top: 400px;
-    width: calc(100% + 660px);
-    left: -300px;
-    z-index: 2;
-    position: relative;
-  }
+  background: white;
+  transform: rotate(4deg);
+  height: 100%;
+  margin-top: 400px;
+  width: calc(100% + 660px);
+  left: -300px;
+  z-index: 2;
+  position: relative;
+}
 
-  #gallery .container {
-    transform:rotate(-4deg);
-    padding: 10px 0 10px 0;
-    width: 100vw;
-  }
+#gallery .container {
+  transform: rotate(-4deg);
+  padding: 10px 0 10px 0;
+  width: 100vw;
+}
 
 .work {
-    max-width: 300px;
-    min-width: 300px;
-    height: 280px;
-    margin: 40px;
-    background: #F0F0F0;
-    padding: 0 !important;
-  }
+  max-width: 300px;
+  min-width: 300px;
+  height: 280px;
+  margin: 40px;
+  background: #F0F0F0;
+  padding: 0 !important;
+}
 
 .work:hover {
-    transform: scale(1.10);
+  transform: scale(1.10);
 }
-  
-  .work img {
-    width: 100%;
-    height: 200px;
-    border: 0 none;
-    opacity: 0.8;
-  }
-  
-  .work h5 {
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    margin-top: 0;
-    font-weight: 300;
-    line-height: 45px;
-    color: #ffffff;
-    text-align: center;
-    background: #f0a842;
-  }
-  
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-  }
 
-  .work a {
-      color: white;
-      font-size: 20px;
-      font-weight: bold;
-  }
+.work img {
+  width: 100%;
+  height: 200px;
+  border: 0 none;
+  opacity: 0.8;
+}
 
-  .work a:hover{
-    color: #561fb9;
-  }
+.work h5 {
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 300;
+  line-height: 45px;
+  color: #ffffff;
+  text-align: center;
+  background: #f0a842;
+}
 
-  .fab {
-    font-size: 30px;
-  }
-  
-  .gitlink {
-    float: right;
-    padding-right: 5px;
-    padding-top: 5px;
-  }
-  
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+.work a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.work a:hover {
+  color: #561fb9;
+}
+
+.fab {
+  font-size: 30px;
+}
+
+.gitlink {
+  float: right;
+  padding-right: 5px;
+  padding-top: 5px;
+}

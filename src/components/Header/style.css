@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-#header .card .card-content .card-title { 
+#header .card .card-content .card-title {
     font-size: 65px;
     padding: 10px;
     font-weight: 500;
@@ -30,10 +30,9 @@
 }
 
 @media screen and (max-width: 500px) {
-    #header .card .card-content .card-title { 
+    #header .card .card-content .card-title {
         font-size: 50px;
     }
-
     #header .card p {
         font-size: 20px;
     }

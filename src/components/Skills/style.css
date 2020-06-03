@@ -1,7 +1,7 @@
 #skills {
     background: white;
-    top:-5%;
-    transform:rotate(4deg);
+    top: -5%;
+    transform: rotate(4deg);
     height: 410px;
     margin-top: 400px;
     width: calc(100% + 40px);
@@ -11,7 +11,7 @@
 }
 
 #skills .container {
-    transform:rotate(-4deg);
+    transform: rotate(-4deg);
     display: grid;
 }
 
@@ -20,7 +20,7 @@
     perspective: 60vw;
 }
 
-#skills .carousel .indicators{
+#skills .carousel .indicators {
     background: #f0a842;
 }
 
@@ -28,7 +28,6 @@
     #skills .carousel {
         margin-top: -8vh;
     }
-
     #skills ul.indicators {
         width: 80vw;
         left: 6vw;
