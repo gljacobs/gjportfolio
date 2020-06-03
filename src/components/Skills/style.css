@@ -26,11 +26,17 @@
 
 @media screen and (max-width: 600px) {
     #skills .carousel {
-        margin-top: -10vh;
+        margin-top: -8vh;
     }
 
     #skills ul.indicators {
         width: 80vw;
-        left: 10vw;
+        left: 6vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #skills .container {
+        padding-left: 10px;
     }
 }
