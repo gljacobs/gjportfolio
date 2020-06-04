@@ -73,3 +73,13 @@
   padding-right: 5px;
   padding-top: 5px;
 }
+
+#gallery .row {
+  margin-right: 9px;
+}
+
+@media screen and (max-width: 420px) {
+  #gallery .row {
+    margin-left: -15vw;
+  }
+}
