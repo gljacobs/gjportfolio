@@ -80,6 +80,9 @@
 
 @media screen and (max-width: 420px) {
   #gallery .row {
-    margin-left: -15vw;
+    margin-left: -1rem;
+  }
+  #gallery .container {
+    margin-right: 27.5rem;
   }
 }

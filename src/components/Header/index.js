@@ -6,7 +6,7 @@ function Header() {
         <div id="header">
             <div className="card">
                 <div className="card-content">
-                    <span className="card-title center-align">Gabriel Jacobs</span>
+                    <span id="gj" className="card-title center-align">Gabriel Jacobs</span>
                     <p className="center-align">Full-Stack Web Developer and Freelancer</p>
                 </div>
             </div>

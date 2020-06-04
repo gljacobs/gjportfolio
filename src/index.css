@@ -14,3 +14,13 @@ div#tsparticles {
     height: 100%;
     position: fixed;
 }
+
+@media screen and (max-width: 400px) {
+    #gj {
+        font-size: 45px !important;
+        padding: 0 !important;
+    }
+    h3 {
+        font-size: 35px;
+    }
+}
