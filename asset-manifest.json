@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/gjportfolio/static/css/main.db1a4d8f.chunk.css",
-    "main.js": "/gjportfolio/static/js/main.6717ad5a.chunk.js",
-    "main.js.map": "/gjportfolio/static/js/main.6717ad5a.chunk.js.map",
-    "runtime~main.js": "/gjportfolio/static/js/runtime~main.50c7f30a.js",
-    "runtime~main.js.map": "/gjportfolio/static/js/runtime~main.50c7f30a.js.map",
-    "static/js/2.7fba1f2b.chunk.js": "/gjportfolio/static/js/2.7fba1f2b.chunk.js",
-    "static/js/2.7fba1f2b.chunk.js.map": "/gjportfolio/static/js/2.7fba1f2b.chunk.js.map",
+    "main.css": "/gjportfolio/static/css/main.b1fa562c.chunk.css",
+    "main.js": "/gjportfolio/static/js/main.c3471656.chunk.js",
+    "main.js.map": "/gjportfolio/static/js/main.c3471656.chunk.js.map",
+    "runtime-main.js": "/gjportfolio/static/js/runtime-main.eb3dd53c.js",
+    "runtime-main.js.map": "/gjportfolio/static/js/runtime-main.eb3dd53c.js.map",
+    "static/js/2.234d498a.chunk.js": "/gjportfolio/static/js/2.234d498a.chunk.js",
+    "static/js/2.234d498a.chunk.js.map": "/gjportfolio/static/js/2.234d498a.chunk.js.map",
     "index.html": "/gjportfolio/index.html",
-    "precache-manifest.bf16b9d99eb79f29396b811f7cac1705.js": "/gjportfolio/precache-manifest.bf16b9d99eb79f29396b811f7cac1705.js",
+    "precache-manifest.fab46d5fe97832a57cf589292684964e.js": "/gjportfolio/precache-manifest.fab46d5fe97832a57cf589292684964e.js",
     "service-worker.js": "/gjportfolio/service-worker.js",
-    "static/css/main.db1a4d8f.chunk.css.map": "/gjportfolio/static/css/main.db1a4d8f.chunk.css.map",
+    "static/css/main.b1fa562c.chunk.css.map": "/gjportfolio/static/css/main.b1fa562c.chunk.css.map",
+    "static/js/2.234d498a.chunk.js.LICENSE.txt": "/gjportfolio/static/js/2.234d498a.chunk.js.LICENSE.txt",
     "static/media/burger.png": "/gjportfolio/static/media/burger.8bfef8c2.png",
     "static/media/camp.png": "/gjportfolio/static/media/camp.8a2425da.png",
     "static/media/ccv1.png": "/gjportfolio/static/media/ccv1.07fd2c27.png",
@@ -26,5 +27,11 @@
     "static/media/santa.png": "/gjportfolio/static/media/santa.576fe3a8.png",
     "static/media/todo.png": "/gjportfolio/static/media/todo.b4f1239c.png",
     "static/media/word.png": "/gjportfolio/static/media/word.9533285a.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb3dd53c.js",
+    "static/js/2.234d498a.chunk.js",
+    "static/css/main.b1fa562c.chunk.css",
+    "static/js/main.c3471656.chunk.js"
+  ]
 }
